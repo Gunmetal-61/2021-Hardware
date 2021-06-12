@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty S7 - 50 210352B0BF73A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty S7 - 50-210352B0BF73A-0362f093-0&quot;}}]}"/>
+	<item key="FFTAudio_system-bitFile" value="${project_loc:FFTAudio}/_ide/bitstream/FFTAudio_Block_HWExport.bit"/>
+	<item key="FFTAudio_system-bmmFile" value="${project_loc:FFTAudio}/_ide/bitstream/FFTAudio_Block_HWExport.mmi"/>
+	<item key="FFTAudio_system-target" value="Local"/>
+	<item key="FFTAudio_system-device" value="Auto Detect"/>
+	<item key="FFTAudio_system-partial_bit" value="false"/>
+	<item key="FFTAudio_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="FFTAudio_system"/>
+	<item key="FFTAudio_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="&lt;None&gt;-bitFile" value="R:\Users\Mitchell\Documents\Vitis\workspace\FFTAudio\_ide\bitstream\FFTAudio_Block_HWExport.bit"/>
+	<item key="&lt;None&gt;-bmmFile" value=""/>
+	<item key="&lt;None&gt;-target" value="Local"/>
+	<item key="&lt;None&gt;-device" value="Auto Detect"/>
+	<item key="&lt;None&gt;-partial_bit" value="false"/>
+	<item key="&lt;None&gt;-skip_rev_check" value="false"/>
+</section>

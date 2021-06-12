@@ -1,0 +1,1120 @@
+TRACE::2021-06-10.12:04:09::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:09::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:09::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-06-10.12:04:11::SCWPlatform::Opened new HwDB with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2021-06-10.12:04:11::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport"
+		}]
+}
+TRACE::2021-06-10.12:04:11::SCWPlatform::Boot application domains not present, creating them
+TRACE::2021-06-10.12:04:11::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2021-06-10.12:04:11::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport"
+		}]
+}
+TRACE::2021-06-10.12:04:11::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport"
+		}]
+}
+TRACE::2021-06-10.12:04:11::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:11::SCWDomain::checking for install qemu data   : 
+TRACE::2021-06-10.12:04:11::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:11::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:11::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:11::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:11::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:11::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-06-10.12:04:11::SCWMssOS::No sw design opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:11::SCWMssOS::mss does not exists at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:11::SCWMssOS::Creating sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:11::SCWMssOS::Adding the swdes entry, created swdb R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:11::SCWMssOS::updating the scw layer changes to swdes at   R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:11::SCWMssOS::Writing mss at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:11::SCWMssOS::Completed writing the mss file at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-06-10.12:04:11::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-06-10.12:04:11::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-06-10.12:04:11::SCWMssOS::Completed writing the mss file at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-06-10.12:04:11::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Saving the mss changes R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Running validate of swdbs.
+KEYINFO::2021-06-10.12:04:12::SCWMssOS::Could not open the swdb for R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+KEYINFO::2021-06-10.12:04:12::SCWMssOS::Could not open the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss is not found
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-06-10.12:04:12::SCWMssOS::Adding the swdes entry, mss present, able to open swdb R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2021-06-10.12:04:12::SCWMssOS::Writing the mss file completed R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Commit changes completed.
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"7b6497b8681a21c024eaa384d58e881a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-06-10.12:04:12::SCWPlatform::Started generating the artifacts platform FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:04:12::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-06-10.12:04:12::SCWPlatform::Started generating the artifacts for system configuration FFTAudio_Block_HWExport
+LOG::2021-06-10.12:04:12::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2021-06-10.12:04:12::SCWSystem::Not a boot domain 
+LOG::2021-06-10.12:04:12::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-06-10.12:04:12::SCWDomain::Generating domain artifcats
+TRACE::2021-06-10.12:04:12::SCWMssOS::Generating standalone artifcats
+TRACE::2021-06-10.12:04:12::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Completed writing the mss file at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-06-10.12:04:12::SCWMssOS::Mss edits present, copying mssfile into export location R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-06-10.12:04:12::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-06-10.12:04:12::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2021-06-10.12:04:12::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-06-10.12:04:12::SCWMssOS::Copying to export directory.
+TRACE::2021-06-10.12:04:12::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-06-10.12:04:12::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-06-10.12:04:12::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2021-06-10.12:04:12::SCWSystem::Completed Processing the sysconfig FFTAudio_Block_HWExport
+LOG::2021-06-10.12:04:12::SCWPlatform::Completed generating the artifacts for system configuration FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:04:12::SCWPlatform::Started preparing the platform 
+TRACE::2021-06-10.12:04:12::SCWSystem::Writing the bif file for system config FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:04:12::SCWSystem::dir created 
+TRACE::2021-06-10.12:04:12::SCWSystem::Writing the bif 
+TRACE::2021-06-10.12:04:12::SCWPlatform::Started writing the spfm file 
+TRACE::2021-06-10.12:04:12::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-06-10.12:04:12::SCWPlatform::Completed generating the platform
+TRACE::2021-06-10.12:04:12::SCWMssOS::Saving the mss changes R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Commit changes completed.
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"7b6497b8681a21c024eaa384d58e881a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-06-10.12:04:12::SCWPlatform::updated the xpfm file.
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Saving the mss changes R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Commit changes completed.
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"7b6497b8681a21c024eaa384d58e881a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Saving the mss changes R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Commit changes completed.
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"7b6497b8681a21c024eaa384d58e881a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-06-10.12:04:12::SCWPlatform::Started generating the artifacts platform FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:04:12::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-06-10.12:04:12::SCWPlatform::Started generating the artifacts for system configuration FFTAudio_Block_HWExport
+LOG::2021-06-10.12:04:12::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-06-10.12:04:12::SCWDomain::Generating domain artifcats
+TRACE::2021-06-10.12:04:12::SCWMssOS::Generating standalone artifcats
+TRACE::2021-06-10.12:04:12::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Completed writing the mss file at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-06-10.12:04:12::SCWMssOS::Mss edits present, copying mssfile into export location R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-06-10.12:04:12::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-06-10.12:04:12::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2021-06-10.12:04:12::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-06-10.12:04:12::SCWMssOS::Copying to export directory.
+TRACE::2021-06-10.12:04:12::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-06-10.12:04:12::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-06-10.12:04:12::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2021-06-10.12:04:12::SCWSystem::Completed Processing the sysconfig FFTAudio_Block_HWExport
+LOG::2021-06-10.12:04:12::SCWPlatform::Completed generating the artifacts for system configuration FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:04:12::SCWPlatform::Started preparing the platform 
+TRACE::2021-06-10.12:04:12::SCWSystem::Writing the bif file for system config FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:04:12::SCWSystem::dir created 
+TRACE::2021-06-10.12:04:12::SCWSystem::Writing the bif 
+TRACE::2021-06-10.12:04:12::SCWPlatform::Started writing the spfm file 
+TRACE::2021-06-10.12:04:12::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-06-10.12:04:12::SCWPlatform::Completed generating the platform
+TRACE::2021-06-10.12:04:12::SCWMssOS::Saving the mss changes R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-10.12:04:12::SCWMssOS::Commit changes completed.
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:04:12::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_0
+TRACE::2021-06-10.12:04:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:04:12::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:04:12::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:04:12::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"7b6497b8681a21c024eaa384d58e881a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-06-10.12:04:12::SCWPlatform::updated the xpfm file.
+TRACE::2021-06-10.12:09:42::SCWPlatform::Clearing the existing platform
+TRACE::2021-06-10.12:09:42::SCWSystem::Clearing the existing sysconfig
+TRACE::2021-06-10.12:09:42::SCWMssOS::Removing the swdes entry for  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWSystem::Clearing the domains completed.
+TRACE::2021-06-10.12:09:42::SCWPlatform::Clearing the opened hw db.
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Platform location is R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:09:42::SCWPlatform::Removing the HwDB with name R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:09:42::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-06-10.12:09:42::SCWPlatform::Opened new HwDB with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWReader::Active system found as  FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:09:42::SCWReader::Handling sysconfig FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:09:42::SCWDomain::checking for install qemu data   : 
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:09:42::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-06-10.12:09:42::SCWMssOS::No sw design opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWMssOS::mss exists loading the mss file  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWMssOS::Opened the sw design from mss  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWMssOS::Adding the swdes entry R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2021-06-10.12:09:42::SCWMssOS::updating the scw layer about changes
+TRACE::2021-06-10.12:09:42::SCWMssOS::Opened the sw design.  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWMssOS::Saving the mss changes R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-10.12:09:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-10.12:09:42::SCWMssOS::Commit changes completed.
+TRACE::2021-06-10.12:09:42::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-06-10.12:09:42::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:09:42::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:09:42::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:09:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:09:42::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:09:42::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:09:42::SCWReader::No isolation master present  
+LOG::2021-06-10.12:10:31::SCWPlatform::Started generating the artifacts platform FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:10:31::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-06-10.12:10:31::SCWPlatform::Started generating the artifacts for system configuration FFTAudio_Block_HWExport
+LOG::2021-06-10.12:10:31::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2021-06-10.12:10:31::SCWSystem::Not a boot domain 
+LOG::2021-06-10.12:10:31::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-06-10.12:10:31::SCWDomain::Generating domain artifcats
+TRACE::2021-06-10.12:10:31::SCWMssOS::Generating standalone artifcats
+TRACE::2021-06-10.12:10:31::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-06-10.12:10:31::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:31::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:31::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:31::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:10:31::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:31::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:10:31::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:10:31::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:10:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:10:31::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:10:31::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:10:31::SCWMssOS::Completed writing the mss file at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-06-10.12:10:31::SCWMssOS::Mss edits present, copying mssfile into export location R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:10:31::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-06-10.12:10:31::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-06-10.12:10:31::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2021-06-10.12:10:31::SCWMssOS::doing bsp build ... 
+TRACE::2021-06-10.12:10:31::SCWMssOS::System Command Ran  R: & cd  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2021-06-10.12:10:31::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-06-10.12:10:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-06-10.12:10:31::SCWMssOS::-Wextra"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-06-10.12:10:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-06-10.12:10:31::SCWMssOS::-Wextra"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-06-10.12:10:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-06-10.12:10:31::SCWMssOS::-Wextra"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/iic_v3_7/src"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2021-06-10.12:10:31::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2021-06-10.12:10:31::SCWMssOS::Wextra"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-06-10.12:10:31::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-06-10.12:10:31::SCWMssOS:: -Wextra"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-06-10.12:10:31::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-06-10.12:10:31::SCWMssOS::-Wall -Wextra"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/sysmon_v7_7/src"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -C microblaze_0/libsrc/sysmon_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-06-10.12:10:31::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-06-10.12:10:31::SCWMssOS::l -Wextra"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-06-10.12:10:31::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-06-10.12:10:31::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-06-10.12:10:31::SCWMssOS::all -Wextra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-06-10.12:10:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-06-10.12:10:32::SCWMssOS::xtra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-06-10.12:10:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-06-10.12:10:32::SCWMssOS::xtra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-06-10.12:10:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-06-10.12:10:32::SCWMssOS::xtra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/iic_v3_7/src"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2021-06-10.12:10:32::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2021-06-10.12:10:32::SCWMssOS::tra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2021-06-10.12:10:32::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2021-06-10.12:10:32::SCWMssOS::extra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-06-10.12:10:32::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2021-06-10.12:10:32::SCWMssOS::ll -Wextra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/sysmon_v7_7/src"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::make -C microblaze_0/libsrc/sysmon_v7_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2021-06-10.12:10:32::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2021-06-10.12:10:32::SCWMssOS::Wextra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-06-10.12:10:32::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-06-10.12:10:32::SCWMssOS:: -Wextra"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2021-06-10.12:10:32::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2021-06-10.12:10:33::SCWMssOS::make --no-print-directory archive
+
+TRACE::2021-06-10.12:10:33::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2021-06-10.12:10:33::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaze_disable_dcache.o microb
+TRACE::2021-06-10.12:10:33::SCWMssOS::laze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_api.
+TRACE::2021-06-10.12:10:33::SCWMssOS::o microblaze_0/lib/xsysmon_g.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/
+TRACE::2021-06-10.12:10:33::SCWMssOS::lib/xiic_multi_master.o microblaze_0/lib/xiic_sinit.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/xbram_g.
+TRACE::2021-06-10.12:10:33::SCWMssOS::o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze
+TRACE::2021-06-10.12:10:33::SCWMssOS::_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microb
+TRACE::2021-06-10.12:10:33::SCWMssOS::laze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xsysmon_intr.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xuartlite_g.
+TRACE::2021-06-10.12:10:33::SCWMssOS::o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xiic_intr.o microblaze_0/lib/xil_sleepcommon.o microblaz
+TRACE::2021-06-10.12:10:33::SCWMssOS::e_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xiic_g.o microblaze_0/lib/xiic_l.o microblaze_0/lib/xintc_self
+TRACE::2021-06-10.12:10:33::SCWMssOS::test.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xio.o microblaze_0/lib/xgpio_intr.o microblaze_0/
+TRACE::2021-06-10.12:10:33::SCWMssOS::lib/xiic_slave.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/microbla
+TRACE::2021-06-10.12:10:33::SCWMssOS::ze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/hw_exception_
+TRACE::2021-06-10.12:10:33::SCWMssOS::handler.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/li
+TRACE::2021-06-10.12:10:33::SCWMssOS::b/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaz
+TRACE::2021-06-10.12:10:33::SCWMssOS::e_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xsysmon_sinit.o mi
+TRACE::2021-06-10.12:10:33::SCWMssOS::croblaze_0/lib/_exit.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalid
+TRACE::2021-06-10.12:10:33::SCWMssOS::ate_icache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0
+TRACE::2021-06-10.12:10:33::SCWMssOS::/lib/errno.o microblaze_0/lib/xiic_dyn_master.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/mi
+TRACE::2021-06-10.12:10:33::SCWMssOS::croblaze_invalidate_cache_ext_range.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o mic
+TRACE::2021-06-10.12:10:33::SCWMssOS::roblaze_0/lib/xgpio.o microblaze_0/lib/xiic_options.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xiic_master.
+TRACE::2021-06-10.12:10:33::SCWMssOS::o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib
+TRACE::2021-06-10.12:10:33::SCWMssOS::/xil_assert.o microblaze_0/lib/xiic_stats.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xgpio_extra.o micr
+TRACE::2021-06-10.12:10:33::SCWMssOS::oblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/xiic.o microblaze_0/li
+TRACE::2021-06-10.12:10:33::SCWMssOS::b/xbram_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xsysmon.o microblaze_0/lib/xiic_selftest.o microblaze_0/lib/xsys
+TRACE::2021-06-10.12:10:33::SCWMssOS::mon_selftest.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2021-06-10.12:10:33::SCWMssOS::'Finished building libraries'
+
+TRACE::2021-06-10.12:10:33::SCWMssOS::Copying to export directory.
+TRACE::2021-06-10.12:10:33::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-06-10.12:10:33::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-06-10.12:10:33::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2021-06-10.12:10:33::SCWSystem::Completed Processing the sysconfig FFTAudio_Block_HWExport
+LOG::2021-06-10.12:10:33::SCWPlatform::Completed generating the artifacts for system configuration FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:10:33::SCWPlatform::Started preparing the platform 
+TRACE::2021-06-10.12:10:33::SCWSystem::Writing the bif file for system config FFTAudio_Block_HWExport
+TRACE::2021-06-10.12:10:33::SCWSystem::dir created 
+TRACE::2021-06-10.12:10:33::SCWSystem::Writing the bif 
+TRACE::2021-06-10.12:10:33::SCWPlatform::Started writing the spfm file 
+TRACE::2021-06-10.12:10:33::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-06-10.12:10:33::SCWPlatform::Completed generating the platform
+TRACE::2021-06-10.12:10:33::SCWMssOS::Saving the mss changes R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:10:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-10.12:10:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-10.12:10:33::SCWMssOS::Commit changes completed.
+TRACE::2021-06-10.12:10:33::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:33::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:33::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:33::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:10:33::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:33::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:10:33::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:10:33::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:10:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:10:33::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:10:33::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:10:33::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:10:33::SCWWriter::formatted JSON is {
+	"platformName":	"FFTAudio_Block_HWExport",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"FFTAudio_Block_HWExport",
+	"platHandOff":	"R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio_Block_HWExport.xsa",
+	"platIntHandOff":	"<platformDir>/hw/FFTAudio_Block_HWExport.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"FFTAudio_Block_HWExport",
+	"systems":	[{
+			"systemName":	"FFTAudio_Block_HWExport",
+			"systemDesc":	"FFTAudio_Block_HWExport",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"FFTAudio_Block_HWExport",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"7b6497b8681a21c024eaa384d58e881a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-06-10.12:10:33::SCWPlatform::updated the xpfm file.
+TRACE::2021-06-10.12:10:33::SCWPlatform::Trying to open the hw design at R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:33::SCWPlatform::DSA given R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:33::SCWPlatform::DSA absoulate path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:33::SCWPlatform::DSA directory R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw
+TRACE::2021-06-10.12:10:33::SCWPlatform:: Platform Path R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/hw/FFTAudio_Block_HWExport.xsa
+TRACE::2021-06-10.12:10:33::SCWPlatform:: Unique name xilinx:arty-s7-50::0.0
+TRACE::2021-06-10.12:10:33::SCWPlatform::Trying to set the existing hwdb with name FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:10:33::SCWPlatform::Opened existing hwdb FFTAudio_Block_wrapper_2
+TRACE::2021-06-10.12:10:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-10.12:10:33::SCWMssOS::Checking the sw design at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-06-10.12:10:33::SCWMssOS::DEBUG:  swdes dump  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-06-10.12:10:33::SCWMssOS::Sw design exists and opened at  R:/Users/Mitchell/Documents/Vitis/workspace/FFTAudio_Block_HWExport/microblaze_0/standalone_microblaze_0/bsp/system.mss

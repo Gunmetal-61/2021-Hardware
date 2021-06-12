@@ -1,0 +1,14 @@
+verilog xil_defaultlib --include "../../../../FFTAudio.gen/sources_1/bd/FFTAudio_Block/ipshared/ec67/hdl" --include "../../../../FFTAudio.gen/sources_1/bd/FFTAudio_Block/ipshared/d0f7" \
+"../../../bd/FFTAudio_Block/ip/FFTAudio_Block_lmb_bram_1/sim/FFTAudio_Block_lmb_bram_1.v" \
+"../../../bd/FFTAudio_Block/ip/FFTAudio_Block_xbar_1/sim/FFTAudio_Block_xbar_1.v" \
+"../../../bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_xlconcat_0/sim/FFTAudio_Block_microblaze_0_xlconcat_0.v" \
+"../../../bd/FFTAudio_Block/ip/FFTAudio_Block_clk_wiz_1_0/FFTAudio_Block_clk_wiz_1_0_clk_wiz.v" \
+"../../../bd/FFTAudio_Block/ip/FFTAudio_Block_clk_wiz_1_0/FFTAudio_Block_clk_wiz_1_0.v" \
+"../../../bd/FFTAudio_Block/ip/FFTAudio_Block_xadc_wiz_0_1/FFTAudio_Block_xadc_wiz_0_1.v" \
+"../../../bd/FFTAudio_Block/ip/FFTAudio_Block_xlconstant_0_0/sim/FFTAudio_Block_xlconstant_0_0.v" \
+"../../../bd/FFTAudio_Block/ip/FFTAudio_Block_reset_inv_0_2/sim/FFTAudio_Block_reset_inv_0_2.v" \
+"../../../bd/FFTAudio_Block/sim/FFTAudio_Block.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

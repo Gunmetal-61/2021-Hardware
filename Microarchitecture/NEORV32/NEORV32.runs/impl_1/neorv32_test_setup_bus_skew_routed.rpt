@@ -1,0 +1,15 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sun May  2 20:45:55 2021
+| Host         : HORIZON running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file neorv32_test_setup_bus_skew_routed.rpt -pb neorv32_test_setup_bus_skew_routed.pb -rpx neorv32_test_setup_bus_skew_routed.rpx
+| Design       : neorv32_test_setup
+| Device       : 7s50-csga324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

@@ -1,0 +1,8 @@
+Nothing to build in platform 'FFTAudio_Block_HWExport'
+
+14:51:03 **** Incremental Build of configuration Debug for project FFTAudio ****
+make all 
+make: Nothing to be done for 'all'.
+14:51:03 **** Build of configuration Debug for project FFTAudio_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

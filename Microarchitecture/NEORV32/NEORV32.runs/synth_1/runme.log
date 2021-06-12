@@ -1,0 +1,753 @@
+
+*** Running vivado
+    with args -log neorv32_test_setup.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source neorv32_test_setup.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source neorv32_test_setup.tcl -notrace
+Command: synth_design -top neorv32_test_setup -part xc7s50csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 43260
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1094.379 ; gain = 14.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'neorv32_test_setup' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/top_templates/neorv32_test_setup.vhd:60]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BOOTLOADER_EN bound to: 1 - type: bool 
+	Parameter USER_CODE bound to: 32'b00000000000000000000000000000000 
+	Parameter HW_THREAD_ID bound to: 0 - type: integer 
+	Parameter CPU_EXTENSION_RISCV_A bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_B bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_C bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_E bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_M bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_U bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zfinx bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zicsr bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zifencei bound to: 0 - type: bool 
+	Parameter FAST_MUL_EN bound to: 0 - type: bool 
+	Parameter FAST_SHIFT_EN bound to: 0 - type: bool 
+	Parameter TINY_SHIFT_EN bound to: 0 - type: bool 
+	Parameter CPU_CNT_WIDTH bound to: 64 - type: integer 
+	Parameter PMP_NUM_REGIONS bound to: 0 - type: integer 
+	Parameter PMP_MIN_GRANULARITY bound to: 65536 - type: integer 
+	Parameter HPM_NUM_CNTS bound to: 4 - type: integer 
+	Parameter HPM_CNT_WIDTH bound to: 40 - type: integer 
+	Parameter MEM_INT_IMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_IMEM_SIZE bound to: 16384 - type: integer 
+	Parameter MEM_INT_IMEM_ROM bound to: 0 - type: bool 
+	Parameter MEM_INT_DMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_DMEM_SIZE bound to: 8192 - type: integer 
+	Parameter ICACHE_EN bound to: 0 - type: bool 
+	Parameter ICACHE_NUM_BLOCKS bound to: 4 - type: integer 
+	Parameter ICACHE_BLOCK_SIZE bound to: 64 - type: integer 
+	Parameter ICACHE_ASSOCIATIVITY bound to: 1 - type: integer 
+	Parameter MEM_EXT_EN bound to: 0 - type: bool 
+	Parameter MEM_EXT_TIMEOUT bound to: 0 - type: integer 
+	Parameter IO_GPIO_EN bound to: 1 - type: bool 
+	Parameter IO_MTIME_EN bound to: 1 - type: bool 
+	Parameter IO_UART0_EN bound to: 1 - type: bool 
+	Parameter IO_UART1_EN bound to: 0 - type: bool 
+	Parameter IO_SPI_EN bound to: 0 - type: bool 
+	Parameter IO_TWI_EN bound to: 0 - type: bool 
+	Parameter IO_PWM_EN bound to: 0 - type: bool 
+	Parameter IO_WDT_EN bound to: 1 - type: bool 
+	Parameter IO_TRNG_EN bound to: 0 - type: bool 
+	Parameter IO_CFS_EN bound to: 0 - type: bool 
+	Parameter IO_CFS_CONFIG bound to: 32'b00000000000000000000000000000000 
+	Parameter IO_CFS_IN_SIZE bound to: 32 - type: integer 
+	Parameter IO_CFS_OUT_SIZE bound to: 32 - type: integer 
+	Parameter IO_NCO_EN bound to: 0 - type: bool 
+	Parameter IO_NEOLED_EN bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neorv32_top' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:48' bound to instance 'neorv32_top_inst' of component 'neorv32_top' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/top_templates/neorv32_test_setup.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'neorv32_top' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:189]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BOOTLOADER_EN bound to: 1 - type: bool 
+	Parameter USER_CODE bound to: 0 - type: integer 
+	Parameter HW_THREAD_ID bound to: 0 - type: integer 
+	Parameter CPU_EXTENSION_RISCV_A bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_B bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_C bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_E bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_M bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_U bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zfinx bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zicsr bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zifencei bound to: 0 - type: bool 
+	Parameter FAST_MUL_EN bound to: 0 - type: bool 
+	Parameter FAST_SHIFT_EN bound to: 0 - type: bool 
+	Parameter TINY_SHIFT_EN bound to: 0 - type: bool 
+	Parameter CPU_CNT_WIDTH bound to: 64 - type: integer 
+	Parameter PMP_NUM_REGIONS bound to: 0 - type: integer 
+	Parameter PMP_MIN_GRANULARITY bound to: 65536 - type: integer 
+	Parameter HPM_NUM_CNTS bound to: 4 - type: integer 
+	Parameter HPM_CNT_WIDTH bound to: 40 - type: integer 
+	Parameter MEM_INT_IMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_IMEM_SIZE bound to: 16384 - type: integer 
+	Parameter MEM_INT_IMEM_ROM bound to: 0 - type: bool 
+	Parameter MEM_INT_DMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_DMEM_SIZE bound to: 8192 - type: integer 
+	Parameter ICACHE_EN bound to: 0 - type: bool 
+	Parameter ICACHE_NUM_BLOCKS bound to: 4 - type: integer 
+	Parameter ICACHE_BLOCK_SIZE bound to: 64 - type: integer 
+	Parameter ICACHE_ASSOCIATIVITY bound to: 1 - type: integer 
+	Parameter MEM_EXT_EN bound to: 0 - type: bool 
+	Parameter MEM_EXT_TIMEOUT bound to: 0 - type: integer 
+	Parameter IO_GPIO_EN bound to: 1 - type: bool 
+	Parameter IO_MTIME_EN bound to: 1 - type: bool 
+	Parameter IO_UART0_EN bound to: 1 - type: bool 
+	Parameter IO_UART1_EN bound to: 0 - type: bool 
+	Parameter IO_SPI_EN bound to: 0 - type: bool 
+	Parameter IO_TWI_EN bound to: 0 - type: bool 
+	Parameter IO_PWM_EN bound to: 0 - type: bool 
+	Parameter IO_WDT_EN bound to: 1 - type: bool 
+	Parameter IO_TRNG_EN bound to: 0 - type: bool 
+	Parameter IO_CFS_EN bound to: 0 - type: bool 
+	Parameter IO_CFS_CONFIG bound to: 0 - type: integer 
+	Parameter IO_CFS_IN_SIZE bound to: 32 - type: integer 
+	Parameter IO_CFS_OUT_SIZE bound to: 32 - type: integer 
+	Parameter IO_NCO_EN bound to: 0 - type: bool 
+	Parameter IO_NEOLED_EN bound to: 0 - type: bool 
+	Parameter HW_THREAD_ID bound to: 0 - type: integer 
+	Parameter CPU_BOOT_ADDR bound to: 32'b11111111111111110000000000000000 
+	Parameter CPU_EXTENSION_RISCV_A bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_B bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_C bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_E bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_M bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_U bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zfinx bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zicsr bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zifencei bound to: 0 - type: bool 
+	Parameter FAST_MUL_EN bound to: 0 - type: bool 
+	Parameter FAST_SHIFT_EN bound to: 0 - type: bool 
+	Parameter TINY_SHIFT_EN bound to: 0 - type: bool 
+	Parameter CPU_CNT_WIDTH bound to: 64 - type: integer 
+	Parameter PMP_NUM_REGIONS bound to: 0 - type: integer 
+	Parameter PMP_MIN_GRANULARITY bound to: 65536 - type: integer 
+	Parameter HPM_NUM_CNTS bound to: 4 - type: integer 
+	Parameter HPM_CNT_WIDTH bound to: 40 - type: integer 
+INFO: [Synth 8-3491] module 'neorv32_cpu' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu.vhd:56' bound to instance 'neorv32_cpu_inst' of component 'neorv32_cpu' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:401]
+INFO: [Synth 8-638] synthesizing module 'neorv32_cpu' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu.vhd:124]
+	Parameter HW_THREAD_ID bound to: 0 - type: integer 
+	Parameter CPU_BOOT_ADDR bound to: -65536 - type: integer 
+	Parameter CPU_EXTENSION_RISCV_A bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_B bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_C bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_E bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_M bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_U bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zfinx bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zicsr bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zifencei bound to: 0 - type: bool 
+	Parameter FAST_MUL_EN bound to: 0 - type: bool 
+	Parameter FAST_SHIFT_EN bound to: 0 - type: bool 
+	Parameter TINY_SHIFT_EN bound to: 0 - type: bool 
+	Parameter CPU_CNT_WIDTH bound to: 64 - type: integer 
+	Parameter PMP_NUM_REGIONS bound to: 0 - type: integer 
+	Parameter PMP_MIN_GRANULARITY bound to: 65536 - type: integer 
+	Parameter HPM_NUM_CNTS bound to: 4 - type: integer 
+	Parameter HPM_CNT_WIDTH bound to: 40 - type: integer 
+	Parameter HW_THREAD_ID bound to: 0 - type: integer 
+	Parameter CPU_BOOT_ADDR bound to: -65536 - type: integer 
+	Parameter CPU_EXTENSION_RISCV_A bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_B bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_C bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_E bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_M bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_U bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zfinx bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zicsr bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zifencei bound to: 0 - type: bool 
+	Parameter CPU_CNT_WIDTH bound to: 64 - type: integer 
+	Parameter PMP_NUM_REGIONS bound to: 0 - type: integer 
+	Parameter PMP_MIN_GRANULARITY bound to: 65536 - type: integer 
+	Parameter HPM_NUM_CNTS bound to: 4 - type: integer 
+	Parameter HPM_CNT_WIDTH bound to: 40 - type: integer 
+INFO: [Synth 8-3491] module 'neorv32_cpu_control' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:48' bound to instance 'neorv32_cpu_control_inst' of component 'neorv32_cpu_control' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'neorv32_cpu_control' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:118]
+	Parameter HW_THREAD_ID bound to: 0 - type: integer 
+	Parameter CPU_BOOT_ADDR bound to: -65536 - type: integer 
+	Parameter CPU_EXTENSION_RISCV_A bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_B bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_C bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_E bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_M bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_U bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zfinx bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zicsr bound to: 1 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_Zifencei bound to: 0 - type: bool 
+	Parameter CPU_CNT_WIDTH bound to: 64 - type: integer 
+	Parameter PMP_NUM_REGIONS bound to: 0 - type: integer 
+	Parameter PMP_MIN_GRANULARITY bound to: 65536 - type: integer 
+	Parameter HPM_NUM_CNTS bound to: 4 - type: integer 
+	Parameter HPM_CNT_WIDTH bound to: 40 - type: integer 
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:330]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:332]
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:406]
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:534]
+INFO: [Synth 8-3491] module 'neorv32_cpu_decompressor' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_decompressor.vhd:42' bound to instance 'neorv32_cpu_decompressor_inst' of component 'neorv32_cpu_decompressor' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:593]
+INFO: [Synth 8-638] synthesizing module 'neorv32_cpu_decompressor' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_decompressor.vhd:52]
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_decompressor.vhd:182]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_cpu_decompressor' (1#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_decompressor.vhd:52]
+WARNING: [Synth 8-3919] null assignment ignored [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:2250]
+WARNING: [Synth 8-3919] null assignment ignored [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:2263]
+WARNING: [Synth 8-3919] null assignment ignored [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:2273]
+WARNING: [Synth 8-3919] null assignment ignored [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:2286]
+WARNING: [Synth 8-3919] null assignment ignored [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:2297]
+WARNING: [Synth 8-3919] null assignment ignored [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:2297]
+WARNING: [Synth 8-3919] null assignment ignored [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:2297]
+WARNING: [Synth 8-3919] null assignment ignored [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:2297]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_cpu_control' (2#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd:118]
+	Parameter CPU_EXTENSION_RISCV_E bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neorv32_cpu_regfile' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_regfile.vhd:52' bound to instance 'neorv32_cpu_regfile_inst' of component 'neorv32_cpu_regfile' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu.vhd:286]
+INFO: [Synth 8-638] synthesizing module 'neorv32_cpu_regfile' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_regfile.vhd:70]
+	Parameter CPU_EXTENSION_RISCV_E bound to: 0 - type: bool 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_cpu_regfile' (3#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_regfile.vhd:70]
+	Parameter CPU_EXTENSION_RISCV_M bound to: 1 - type: bool 
+	Parameter FAST_SHIFT_EN bound to: 0 - type: bool 
+	Parameter TINY_SHIFT_EN bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neorv32_cpu_alu' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_alu.vhd:44' bound to instance 'neorv32_cpu_alu_inst' of component 'neorv32_cpu_alu' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu.vhd:306]
+INFO: [Synth 8-638] synthesizing module 'neorv32_cpu_alu' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_alu.vhd:72]
+	Parameter CPU_EXTENSION_RISCV_M bound to: 1 - type: bool 
+	Parameter FAST_SHIFT_EN bound to: 0 - type: bool 
+	Parameter TINY_SHIFT_EN bound to: 0 - type: bool 
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_alu.vhd:331]
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_alu.vhd:345]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_cpu_alu' (4#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_alu.vhd:72]
+	Parameter FAST_MUL_EN bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neorv32_cpu_cp_muldiv' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd:50' bound to instance 'neorv32_cpu_cp_muldiv_inst' of component 'neorv32_cpu_cp_muldiv' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu.vhd:346]
+INFO: [Synth 8-638] synthesizing module 'neorv32_cpu_cp_muldiv' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd:69]
+	Parameter FAST_MUL_EN bound to: 0 - type: bool 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_cpu_cp_muldiv' (5#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd:69]
+	Parameter CPU_EXTENSION_RISCV_A bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_C bound to: 1 - type: bool 
+	Parameter PMP_NUM_REGIONS bound to: 0 - type: integer 
+	Parameter PMP_MIN_GRANULARITY bound to: 65536 - type: integer 
+INFO: [Synth 8-3491] module 'neorv32_cpu_bus' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:44' bound to instance 'neorv32_cpu_bus_inst' of component 'neorv32_cpu_bus' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu.vhd:448]
+INFO: [Synth 8-638] synthesizing module 'neorv32_cpu_bus' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:104]
+	Parameter CPU_EXTENSION_RISCV_A bound to: 0 - type: bool 
+	Parameter CPU_EXTENSION_RISCV_C bound to: 1 - type: bool 
+	Parameter PMP_NUM_REGIONS bound to: 0 - type: integer 
+	Parameter PMP_MIN_GRANULARITY bound to: 65536 - type: integer 
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:151]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:152]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:153]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:154]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:155]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:156]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:157]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:158]
+WARNING: [Synth 8-5389] ignoring zero-width record field declaration [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:159]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_cpu_bus' (6#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd:104]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_cpu' (7#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_cpu.vhd:124]
+	Parameter PORT_CA_READ_ONLY bound to: 0 - type: bool 
+	Parameter PORT_CB_READ_ONLY bound to: 1 - type: bool 
+INFO: [Synth 8-3491] module 'neorv32_busswitch' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_busswitch.vhd:45' bound to instance 'neorv32_busswitch_inst' of component 'neorv32_busswitch' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:553]
+INFO: [Synth 8-638] synthesizing module 'neorv32_busswitch' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_busswitch.vhd:88]
+	Parameter PORT_CA_READ_ONLY bound to: 0 - type: bool 
+	Parameter PORT_CB_READ_ONLY bound to: 1 - type: bool 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_busswitch' (8#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_busswitch.vhd:88]
+	Parameter MEM_INT_IMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_IMEM_SIZE bound to: 16384 - type: integer 
+	Parameter MEM_INT_DMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_DMEM_SIZE bound to: 8192 - type: integer 
+INFO: [Synth 8-3491] module 'neorv32_bus_keeper' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_bus_keeper.vhd:48' bound to instance 'neorv32_bus_keeper_inst' of component 'neorv32_bus_keeper' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:612]
+INFO: [Synth 8-638] synthesizing module 'neorv32_bus_keeper' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_bus_keeper.vhd:70]
+	Parameter MEM_INT_IMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_IMEM_SIZE bound to: 16384 - type: integer 
+	Parameter MEM_INT_DMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_DMEM_SIZE bound to: 8192 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_bus_keeper' (9#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_bus_keeper.vhd:70]
+	Parameter IMEM_BASE bound to: 32'b00000000000000000000000000000000 
+	Parameter IMEM_SIZE bound to: 16384 - type: integer 
+	Parameter IMEM_AS_ROM bound to: 0 - type: bool 
+	Parameter BOOTLOADER_EN bound to: 1 - type: bool 
+INFO: [Synth 8-3491] module 'neorv32_imem' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_imem.vhd:48' bound to instance 'neorv32_int_imem_inst' of component 'neorv32_imem' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:638]
+INFO: [Synth 8-638] synthesizing module 'neorv32_imem' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_imem.vhd:67]
+	Parameter IMEM_BASE bound to: 0 - type: integer 
+	Parameter IMEM_SIZE bound to: 16384 - type: integer 
+	Parameter IMEM_AS_ROM bound to: 0 - type: bool 
+	Parameter BOOTLOADER_EN bound to: 1 - type: bool 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_imem' (10#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_imem.vhd:67]
+	Parameter DMEM_BASE bound to: 32'b10000000000000000000000000000000 
+	Parameter DMEM_SIZE bound to: 8192 - type: integer 
+INFO: [Synth 8-3491] module 'neorv32_dmem' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_dmem.vhd:42' bound to instance 'neorv32_int_dmem_inst' of component 'neorv32_dmem' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:668]
+INFO: [Synth 8-638] synthesizing module 'neorv32_dmem' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_dmem.vhd:59]
+	Parameter DMEM_BASE bound to: -2147483648 - type: integer 
+	Parameter DMEM_SIZE bound to: 8192 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_dmem' (11#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_dmem.vhd:59]
+	Parameter BOOTROM_BASE bound to: 32'b11111111111111110000000000000000 
+	Parameter BOOTROM_SIZE bound to: 4096 - type: integer 
+INFO: [Synth 8-3491] module 'neorv32_boot_rom' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_boot_rom.vhd:43' bound to instance 'neorv32_boot_rom_inst' of component 'neorv32_boot_rom' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:696]
+INFO: [Synth 8-638] synthesizing module 'neorv32_boot_rom' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_boot_rom.vhd:57]
+	Parameter BOOTROM_BASE bound to: -65536 - type: integer 
+	Parameter BOOTROM_SIZE bound to: 4096 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_boot_rom' (12#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_boot_rom.vhd:57]
+INFO: [Synth 8-3491] module 'neorv32_gpio' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_gpio.vhd:45' bound to instance 'neorv32_gpio_inst' of component 'neorv32_gpio' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:836]
+INFO: [Synth 8-638] synthesizing module 'neorv32_gpio' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_gpio.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_gpio' (13#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_gpio.vhd:63]
+INFO: [Synth 8-3491] module 'neorv32_wdt' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_wdt.vhd:50' bound to instance 'neorv32_wdt_inst' of component 'neorv32_wdt' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:867]
+INFO: [Synth 8-638] synthesizing module 'neorv32_wdt' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_wdt.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_wdt' (14#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_wdt.vhd:70]
+INFO: [Synth 8-3491] module 'neorv32_mtime' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_mtime.vhd:45' bound to instance 'neorv32_mtime_inst' of component 'neorv32_mtime' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:901]
+INFO: [Synth 8-638] synthesizing module 'neorv32_mtime' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_mtime.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_mtime' (15#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_mtime.vhd:63]
+	Parameter UART_PRIMARY bound to: 1 - type: bool 
+INFO: [Synth 8-3491] module 'neorv32_uart' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_uart.vhd:67' bound to instance 'neorv32_uart0_inst' of component 'neorv32_uart' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:932]
+INFO: [Synth 8-638] synthesizing module 'neorv32_uart' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_uart.vhd:95]
+	Parameter UART_PRIMARY bound to: 1 - type: bool 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_uart' (16#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_uart.vhd:95]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BOOTLOADER_EN bound to: 1 - type: bool 
+	Parameter USER_CODE bound to: 0 - type: integer 
+	Parameter MEM_INT_IMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_IMEM_SIZE bound to: 16384 - type: integer 
+	Parameter MEM_INT_IMEM_ROM bound to: 0 - type: bool 
+	Parameter MEM_INT_DMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_DMEM_SIZE bound to: 8192 - type: integer 
+	Parameter ICACHE_EN bound to: 0 - type: bool 
+	Parameter ICACHE_NUM_BLOCKS bound to: 4 - type: integer 
+	Parameter ICACHE_BLOCK_SIZE bound to: 64 - type: integer 
+	Parameter ICACHE_ASSOCIATIVITY bound to: 1 - type: integer 
+	Parameter MEM_EXT_EN bound to: 0 - type: bool 
+	Parameter IO_GPIO_EN bound to: 1 - type: bool 
+	Parameter IO_MTIME_EN bound to: 1 - type: bool 
+	Parameter IO_UART0_EN bound to: 1 - type: bool 
+	Parameter IO_UART1_EN bound to: 0 - type: bool 
+	Parameter IO_SPI_EN bound to: 0 - type: bool 
+	Parameter IO_TWI_EN bound to: 0 - type: bool 
+	Parameter IO_PWM_EN bound to: 0 - type: bool 
+	Parameter IO_WDT_EN bound to: 1 - type: bool 
+	Parameter IO_TRNG_EN bound to: 0 - type: bool 
+	Parameter IO_CFS_EN bound to: 0 - type: bool 
+	Parameter IO_NCO_EN bound to: 0 - type: bool 
+	Parameter IO_NEOLED_EN bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neorv32_sysinfo' declared at 'R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_sysinfo.vhd:45' bound to instance 'neorv32_sysinfo_inst' of component 'neorv32_sysinfo' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:1213]
+INFO: [Synth 8-638] synthesizing module 'neorv32_sysinfo' [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_sysinfo.vhd:89]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter BOOTLOADER_EN bound to: 1 - type: bool 
+	Parameter USER_CODE bound to: 0 - type: integer 
+	Parameter MEM_INT_IMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_IMEM_SIZE bound to: 16384 - type: integer 
+	Parameter MEM_INT_IMEM_ROM bound to: 0 - type: bool 
+	Parameter MEM_INT_DMEM_EN bound to: 1 - type: bool 
+	Parameter MEM_INT_DMEM_SIZE bound to: 8192 - type: integer 
+	Parameter ICACHE_EN bound to: 0 - type: bool 
+	Parameter ICACHE_NUM_BLOCKS bound to: 4 - type: integer 
+	Parameter ICACHE_BLOCK_SIZE bound to: 64 - type: integer 
+	Parameter ICACHE_ASSOCIATIVITY bound to: 1 - type: integer 
+	Parameter MEM_EXT_EN bound to: 0 - type: bool 
+	Parameter IO_GPIO_EN bound to: 1 - type: bool 
+	Parameter IO_MTIME_EN bound to: 1 - type: bool 
+	Parameter IO_UART0_EN bound to: 1 - type: bool 
+	Parameter IO_UART1_EN bound to: 0 - type: bool 
+	Parameter IO_SPI_EN bound to: 0 - type: bool 
+	Parameter IO_TWI_EN bound to: 0 - type: bool 
+	Parameter IO_PWM_EN bound to: 0 - type: bool 
+	Parameter IO_WDT_EN bound to: 1 - type: bool 
+	Parameter IO_TRNG_EN bound to: 0 - type: bool 
+	Parameter IO_CFS_EN bound to: 0 - type: bool 
+	Parameter IO_NCO_EN bound to: 0 - type: bool 
+	Parameter IO_NEOLED_EN bound to: 0 - type: bool 
+INFO: [Synth 8-256] done synthesizing module 'neorv32_sysinfo' (17#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_sysinfo.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_top' (18#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/core/neorv32_top.vhd:189]
+INFO: [Synth 8-256] done synthesizing module 'neorv32_test_setup' (19#1) [R:/Users/Mitchell/Documents/GitHub/neorv32/rtl/top_templates/neorv32_test_setup.vhd:60]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1251.199 ; gain = 171.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1251.199 ; gain = 171.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1251.199 ; gain = 171.375
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.150 . Memory (MB): peak = 1251.199 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [R:/Users/Mitchell/Documents/Microarchitecture/NEORV32/NEORV32.srcs/constrs_1/new/arty_a7_50.xdc]
+Finished Parsing XDC File [R:/Users/Mitchell/Documents/Microarchitecture/NEORV32/NEORV32.srcs/constrs_1/new/arty_a7_50.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [R:/Users/Mitchell/Documents/Microarchitecture/NEORV32/NEORV32.srcs/constrs_1/new/arty_a7_50.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/neorv32_test_setup_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/neorv32_test_setup_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1367.957 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1367.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1367.957 ; gain = 288.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1367.957 ; gain = 288.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1367.957 ; gain = 288.133
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'execute_engine_reg[state]' in module 'neorv32_cpu_control'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'neorv32_cpu_cp_muldiv'
+INFO: [Synth 8-802] inferred FSM for state register 'arbiter_reg[state]' in module 'neorv32_busswitch'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                sys_wait |                   00000000000100 |                             0000
+                dispatch |                   00000000100000 |                             0001
+              trap_enter |                   00000000001000 |                             0010
+                 execute |                   00001000000000 |                             0101
+                alu_wait |                   10000000000000 |                             0110
+             loadstore_0 |                   00010000000000 |                             1001
+             loadstore_1 |                   00000100000000 |                             1010
+             loadstore_2 |                   00000001000000 |                             1011
+                  branch |                   00100000000000 |                             0111
+                fence_op |                   01000000000000 |                             1000
+                 sys_env |                   00000010000000 |                             1100
+               trap_exit |                   00000000000001 |                             0011
+            trap_execute |                   00000000000010 |                             0100
+              csr_access |                   00000000010000 |                             1101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'execute_engine_reg[state]' using encoding 'one-hot' in module 'neorv32_cpu_control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                              000
+          div_preprocess |                              100 |                              001
+              processing |                              011 |                              010
+                finalize |                              010 |                              011
+               completed |                              000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'neorv32_cpu_cp_muldiv'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+         retire_switched |                              001 |                              100
+           busy_switched |                              010 |                              011
+                  retire |                              011 |                              010
+                    busy |                              100 |                              001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'arbiter_reg[state]' using encoding 'sequential' in module 'neorv32_busswitch'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1367.957 ; gain = 288.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 3     
+	   2 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 4     
+	   2 Input   12 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 4     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 8     
+	  10 Input      1 Bit         XORs := 1     
+	   9 Input      1 Bit         XORs := 1     
++---Registers : 
+	               73 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	               34 Bit    Registers := 2     
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 39    
+	               29 Bit    Registers := 1     
+	               19 Bit    Registers := 3     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               15 Bit    Registers := 5     
+	               12 Bit    Registers := 3     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 11    
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 79    
++---RAMs : 
+	              32K Bit	(4096 X 8 bit)          RAMs := 4     
+	              16K Bit	(2048 X 8 bit)          RAMs := 4     
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
++---ROMs : 
+	                    ROMs := 1     
++---Muxes : 
+	   2 Input   73 Bit        Muxes := 2     
+	   8 Input   73 Bit        Muxes := 1     
+	  14 Input   73 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 1     
+	   2 Input   36 Bit        Muxes := 7     
+	   2 Input   34 Bit        Muxes := 1     
+	   2 Input   33 Bit        Muxes := 4     
+	   2 Input   32 Bit        Muxes := 44    
+	   4 Input   32 Bit        Muxes := 6     
+	 194 Input   32 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 1     
+	   8 Input   32 Bit        Muxes := 1     
+	  21 Input   19 Bit        Muxes := 1     
+	   2 Input   19 Bit        Muxes := 3     
+	   2 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 12    
+	  14 Input   14 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 4     
+	   8 Input   14 Bit        Muxes := 1     
+	   5 Input   14 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 4     
+	   4 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 10    
+	   4 Input    8 Bit        Muxes := 1     
+	  30 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 3     
+	   5 Input    5 Bit        Muxes := 1     
+	  14 Input    4 Bit        Muxes := 1     
+	   7 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 9     
+	   5 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 6     
+	   3 Input    2 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 16    
+	   2 Input    1 Bit        Muxes := 130   
+	   9 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 5     
+	   8 Input    1 Bit        Muxes := 2     
+	  21 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 2     
+	  12 Input    1 Bit        Muxes := 1     
+	  14 Input    1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1367.957 ; gain = 288.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++-------------------+-----------------------------------------------------------------------------+---------------+----------------+
+|Module Name        | RTL Object                                                                  | Depth x Width | Implemented As | 
++-------------------+-----------------------------------------------------------------------------+---------------+----------------+
+|neorv32_test_setup | neorv32_top_inst/neorv32_boot_rom_inst_true.neorv32_boot_rom_inst/rdata_reg | 1024x32       | Block RAM      | 
++-------------------+-----------------------------------------------------------------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping	Report (see note below)
++-------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                  | RTL Object                                                                             | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|\neorv32_top_inst/neorv32_cpu_inst /neorv32_cpu_regfile_inst | reg_file_reg                                                                           | 32 x 32(READ_FIRST)    | W | R | 32 x 32(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_ll_reg | 4 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_lh_reg | 4 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_hl_reg | 4 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_hh_reg | 4 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_ll_reg     | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_lh_reg     | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_hl_reg     | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_hh_reg     | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
++-------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1367.957 ; gain = 288.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 1367.957 ; gain = 288.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++-------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                  | RTL Object                                                                             | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|\neorv32_top_inst/neorv32_cpu_inst /neorv32_cpu_regfile_inst | reg_file_reg                                                                           | 32 x 32(READ_FIRST)    | W | R | 32 x 32(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_ll_reg | 4 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_lh_reg | 4 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_hl_reg | 4 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_hh_reg | 4 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 0      | 1      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_ll_reg     | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_lh_reg     | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_hl_reg     | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|neorv32_test_setup                                           | neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_hh_reg     | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
++-------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_cpu_inst/neorv32_cpu_regfile_inst/reg_file_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_ll_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_lh_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_hl_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_int_imem_inst_true.neorv32_int_imem_inst/imem_file_ram_hh_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_ll_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_lh_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_hl_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_int_dmem_inst_true.neorv32_int_dmem_inst/dmem_file_hh_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance neorv32_top_inst/neorv32_boot_rom_inst_true.neorv32_boot_rom_inst/rdata_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1372.996 ; gain = 293.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1386.820 ; gain = 306.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1386.820 ; gain = 306.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1386.820 ; gain = 306.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1386.820 ; gain = 306.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1386.820 ; gain = 306.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1386.820 ; gain = 306.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |   184|
+|3     |LUT1     |    35|
+|4     |LUT2     |   190|
+|5     |LUT3     |   711|
+|6     |LUT4     |   370|
+|7     |LUT5     |   628|
+|8     |LUT6     |  1051|
+|9     |MUXF7    |    13|
+|10    |RAMB18E1 |     4|
+|11    |RAMB36E1 |     6|
+|14    |FDCE     |   133|
+|15    |FDPE     |    39|
+|16    |FDRE     |  1666|
+|17    |FDSE     |     8|
+|18    |IBUF     |     3|
+|19    |OBUF     |     9|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1386.820 ; gain = 306.996
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 1386.820 ; gain = 190.238
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1386.820 ; gain = 306.996
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1398.863 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 207 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1398.863 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+93 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:55 ; elapsed = 00:01:02 . Memory (MB): peak = 1398.863 ; gain = 319.039
+INFO: [Common 17-1381] The checkpoint 'R:/Users/Mitchell/Documents/Microarchitecture/NEORV32/NEORV32.runs/synth_1/neorv32_test_setup.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file neorv32_test_setup_utilization_synth.rpt -pb neorv32_test_setup_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May  2 20:44:40 2021...

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1620013404">
+  <File Type="PA-TCL" Name="neorv32_test_setup.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="neorv32_test_setup_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="neorv32_test_setup_reports.tcl"/>
+  <File Type="RDS-RDS" Name="neorv32_test_setup.vds"/>
+  <File Type="RDS-UTIL" Name="neorv32_test_setup_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="neorv32_test_setup_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="neorv32_test_setup.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="neorv32_test_setup_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="neorv32_test_setup_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_application_image.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_package.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_bootloader_image.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_boot_rom.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_bus_keeper.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_busswitch.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cfs.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu_alu.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu_bus.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu_control.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu_cp_bitmanip.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu_cp_fpu.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu_cp_muldiv.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu_decompressor.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_cpu_regfile.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_dmem.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_gpio.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_icache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_imem.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_mtime.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_nco.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_neoled.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_pwm.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_spi.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_sysinfo.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_top.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_trng.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_twi.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_uart.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_wdt.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/core/neorv32_wishbone.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../GitHub/neorv32/rtl/top_templates/neorv32_test_setup.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="neorv32"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="neorv32_test_setup"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/arty_a7_50.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

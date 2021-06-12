@@ -1,0 +1,6 @@
+/*FFTAudio_Block_HWExport*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}
