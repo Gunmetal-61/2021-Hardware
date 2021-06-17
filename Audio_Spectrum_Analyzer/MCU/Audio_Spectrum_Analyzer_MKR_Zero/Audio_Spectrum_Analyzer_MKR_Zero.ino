@@ -29,18 +29,13 @@ SOFTWARE.
 #include <math.h>
 #include <arduinoFFT.h>
 #include <Adafruit_SSD1306.h>
-#include <splash.h>
 #include <Adafruit_GFX.h>
-#include <Adafruit_GrayOLED.h>
-#include <Adafruit_SPITFT.h>
-#include <Adafruit_SPITFT_Macros.h>
-#include <gfxfont.h>
 #include <Wire.h>
 
-#define MAX_SAMPLES 256            //Must be a power of 2
+#define MAX_SAMPLES 64       // Must be a power of 2
 #define DISPLAY_WIDTH 128     // in pixels (x-axis)
 #define DISPLAY_HEIGHT 64     // in pixels (y-axis)
-#define MAX_FFT_X_RES 64      // Number of frequency output columns/bins displayed, must be <= sampleCount/2 and a power of 2 
+#define MAX_FFT_X_RES 32      // Number of frequency output columns/bins displayed, must be <= sampleCount/2 and a power of 2 
 #define MAX_FFT_Y_RES 64      // Number of amplitude levels per column/bin.  Max visible on display should be equivalent to DISPLAY_HEIGHT.
 
 
@@ -117,23 +112,24 @@ arduinoFFT FFT = arduinoFFT(vReal, vImag, sampleCount, 38640);                  
 void setup() {
     if (serialOutMasterSw) {
         Serial.begin(9600);
+        while(!Serial);
     }
 
     setupADC();
     setupDisplay();
 
-    pinMode(selectButtonPin, INPUT);
-    pinMode(modeButtonPin, INPUT);
-    pinMode(downButtonPin, INPUT);
-    pinMode(upButtonPin, INPUT);
+//    pinMode(selectButtonPin, INPUT);
+//    pinMode(modeButtonPin, INPUT);
+//    pinMode(downButtonPin, INPUT);
+//    pinMode(upButtonPin, INPUT);
 }
  
 void loop() {
-        collectADCSamples();
-        runFFT();
-        rearrangeFFT();
-        displayDrawGraph();
-        buttonSystem();
+    collectADCSamples();
+    runFFT();
+    rearrangeFFT();
+    displayDrawGraph();
+    buttonSystem();
 }
 
 void setupADC() {
@@ -189,10 +185,10 @@ void runFFT() {
 
 void rearrangeFFT() {
     // ++ re-arrange FFT result to match with no. of columns on display ( MAX_FFT_X_RES )
-    int step = (sampleCount / 2) / MAX_FFT_X_RES; 
+    int step = (sampleCount / 2) / freqBins; 
     int c = 0;
 
-    for(int i = 0; i < (sampleCount / 2); i += step) {
+    for(int i = 0; i < freqBins; i += step) {
         data_avgs[c] = 0;
         for (int j = 0; j < step; j++) {
             data_avgs[c] = data_avgs[c] + vReal[i + j];
@@ -206,7 +202,7 @@ void rearrangeFFT() {
 void displayDrawGraph() {
     // ++ send to display according measured value
     mx.clearDisplay();
-    int columnSpace = DISPLAY_WIDTH / MAX_FFT_X_RES; // amount of horizontal space in pixels for each column on the display
+    int columnSpace = DISPLAY_WIDTH / freqBins; // amount of horizontal space in pixels for each column on the display
     for(int i=0; i<MAX_FFT_X_RES; i++) {
         data_avgs[i] = constrain(data_avgs[i] * graphGainFactor, 0, MAX_FFT_Y_RES);            // set max & min values for buckets
         data_avgs[i] = map(data_avgs[i], 0, MAX_FFT_Y_RES, 0, DISPLAY_HEIGHT);        // remap averaged values to MAX_FFT_Y_RES
@@ -247,74 +243,74 @@ void displayDrawMetrics() {
 }
 
 void changeStateVariables(int stateMode, int buttonPin) {
-    switch (stateMode) {
-        case 0: // State 0 - Nothing Selected
-
-        case 1: // State 1 - Adjust Sample Count
-            switch (stateMode) {
-                case downButtonPin:
-        
-                case upButtonPin:
-                    
-                default:
-                    
-            }
-            sampleCount = 128;
-        case 2: // State 2 - Adjust Number of Frequency Bins
-            switch (stateMode) {
-                case downButtonPin:
-        
-                case upButtonPin:
-                    
-                default:
-                    
-            }
-            freqBins = MAX_FFT_X_RES;
-        case 3: // State 3 - Adjust Frequency Resolution Per Bin/Frequency Step Per Bin
-            switch (stateMode) {
-                case downButtonPin:
-        
-                case upButtonPin:
-                    
-                default:
-                    
-            }
-            freqStep;
-        case 4: // State 4 - Adjust Frequency Range
-            switch (stateMode) {
-                case downButtonPin:
-        
-                case upButtonPin:
-                    
-                default:
-                    
-            }
-            freqMax;
-        case 5: // State 5 - Adjust Sample Rate
-            switch (stateMode) {
-                case downButtonPin:
-        
-                case upButtonPin:
-                    
-                default:
-                    
-            }
-            sampleRate;
-            aDCSetup();
-        case 6: // State 6 - Adjust ADC Resolution
-            switch (stateMode) {
-                case downButtonPin:
-        
-                case upButtonPin:
-                    
-                default:
-                    
-            }
-            aDCSetup();
-            ADCRes = 10;
-        default:
-            
-    }
+//    switch (stateMode) {
+//        case 0: // State 0 - Nothing Selected
+//
+//        case 1: // State 1 - Adjust Sample Count
+//            switch (stateMode) {
+//                case downButtonPin:
+//        
+//                case upButtonPin:
+//                    
+//                default:
+//                    
+//            }
+//            sampleCount = 128;
+//        case 2: // State 2 - Adjust Number of Frequency Bins
+//            switch (stateMode) {
+//                case downButtonPin:
+//        
+//                case upButtonPin:
+//                    
+//                default:
+//                    
+//            }
+//            freqBins = MAX_FFT_X_RES;
+//        case 3: // State 3 - Adjust Frequency Resolution Per Bin/Frequency Step Per Bin
+//            switch (stateMode) {
+//                case downButtonPin:
+//        
+//                case upButtonPin:
+//                    
+//                default:
+//                    
+//            }
+//            freqStep;
+//        case 4: // State 4 - Adjust Frequency Range
+//            switch (stateMode) {
+//                case downButtonPin:
+//        
+//                case upButtonPin:
+//                    
+//                default:
+//                    
+//            }
+//            freqMax;
+//        case 5: // State 5 - Adjust Sample Rate
+//            switch (stateMode) {
+//                case downButtonPin:
+//        
+//                case upButtonPin:
+//                    
+//                default:
+//                    
+//            }
+//            sampleRate;
+//            aDCSetup();
+//        case 6: // State 6 - Adjust ADC Resolution
+//            switch (stateMode) {
+//                case downButtonPin:
+//        
+//                case upButtonPin:
+//                    
+//                default:
+//                    
+//            }
+//            aDCSetup();
+//            ADCRes = 10;
+//        default:
+//            
+//    }
 }
 
 void buttonSystem() {
