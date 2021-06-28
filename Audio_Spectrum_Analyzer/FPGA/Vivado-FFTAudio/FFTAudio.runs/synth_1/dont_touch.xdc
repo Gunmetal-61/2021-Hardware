@@ -69,4 +69,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==FFTAudio_Bl
 # IP: bd/FFTAudio_Block/ip/FFTAudio_Block_reset_inv_0_2/FFTAudio_Block_reset_inv_0_2.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==FFTAudio_Block_reset_inv_0_2 || ORIG_REF_NAME==FFTAudio_Block_reset_inv_0_2} -quiet] -quiet
 
-# XDC: r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/FFTAudio_Block_ooc.xdc
+# XDC: r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/FFTAudio_Block_ooc.xdc

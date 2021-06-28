@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.runs/synth_1/FFTAudio_Block_wrapper.tcl"
+  variable script "R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.runs/synth_1/FFTAudio_Block_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,7 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 6
+set_param xicom.use_bs_reader 1
 set_msg_config  -id {[BD 41-1306]}  -suppress 
 set_msg_config  -id {[BD 41-1271]}  -suppress 
 OPTRACE "Creating in-memory project" START { }
@@ -80,57 +80,57 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.cache/wt [current_project]
-set_property parent.project_path R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.xpr [current_project]
+set_property webtalk.parent_dir R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.cache/wt [current_project]
+set_property parent.project_path R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part_repo_paths {C:/Users/Mitchell/AppData/Roaming/Xilinx/Vivado/2020.2/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part digilentinc.com:arty-s7-50:part0:1.0 [current_project]
-set_property ip_output_repo r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.cache/ip [current_project]
+set_property ip_output_repo r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/hdl/FFTAudio_Block_wrapper.v
-add_files R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.srcs/sources_1/bd/FFTAudio_Block/FFTAudio_Block.bd
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_1/FFTAudio_Block_microblaze_0_1.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_1/FFTAudio_Block_microblaze_0_1_ooc_debug.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_1/FFTAudio_Block_microblaze_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_dlmb_v10_1/FFTAudio_Block_dlmb_v10_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_ilmb_v10_1/FFTAudio_Block_ilmb_v10_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_dlmb_bram_if_cntlr_1/FFTAudio_Block_dlmb_bram_if_cntlr_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_ilmb_bram_if_cntlr_1/FFTAudio_Block_ilmb_bram_if_cntlr_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_lmb_bram_1/FFTAudio_Block_lmb_bram_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_xbar_1/FFTAudio_Block_xbar_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_axi_intc_0/FFTAudio_Block_microblaze_0_axi_intc_0.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_axi_intc_0/FFTAudio_Block_microblaze_0_axi_intc_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_axi_intc_0/FFTAudio_Block_microblaze_0_axi_intc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_mdm_1_1/FFTAudio_Block_mdm_1_1.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_mdm_1_1/FFTAudio_Block_mdm_1_1_ooc_trace.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_clk_wiz_1_0/FFTAudio_Block_clk_wiz_1_0_board.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_clk_wiz_1_0/FFTAudio_Block_clk_wiz_1_0.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_clk_wiz_1_0/FFTAudio_Block_clk_wiz_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_rst_clk_wiz_1_100M_0/FFTAudio_Block_rst_clk_wiz_1_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_rst_clk_wiz_1_100M_0/FFTAudio_Block_rst_clk_wiz_1_100M_0.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_rst_clk_wiz_1_100M_0/FFTAudio_Block_rst_clk_wiz_1_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_uartlite_0_0/FFTAudio_Block_axi_uartlite_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_uartlite_0_0/FFTAudio_Block_axi_uartlite_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_uartlite_0_0/FFTAudio_Block_axi_uartlite_0_0.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_iic_0_1/FFTAudio_Block_axi_iic_0_1_board.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_iic_0_1/FFTAudio_Block_axi_iic_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_0_0/FFTAudio_Block_axi_gpio_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_0_0/FFTAudio_Block_axi_gpio_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_0_0/FFTAudio_Block_axi_gpio_0_0.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_xadc_wiz_0_1/FFTAudio_Block_xadc_wiz_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_xadc_wiz_0_1/FFTAudio_Block_xadc_wiz_0_1.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_1_0/FFTAudio_Block_axi_gpio_1_0_board.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_1_0/FFTAudio_Block_axi_gpio_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_1_0/FFTAudio_Block_axi_gpio_1_0.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_2_0/FFTAudio_Block_axi_gpio_2_0_board.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_2_0/FFTAudio_Block_axi_gpio_2_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_2_0/FFTAudio_Block_axi_gpio_2_0.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/FFTAudio_Block_ooc.xdc]
-set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_1/data/mb_bootloop_le.elf]
+read_verilog -library xil_defaultlib R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/hdl/FFTAudio_Block_wrapper.v
+add_files R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.srcs/sources_1/bd/FFTAudio_Block/FFTAudio_Block.bd
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_1/FFTAudio_Block_microblaze_0_1.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_1/FFTAudio_Block_microblaze_0_1_ooc_debug.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_1/FFTAudio_Block_microblaze_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_dlmb_v10_1/FFTAudio_Block_dlmb_v10_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_ilmb_v10_1/FFTAudio_Block_ilmb_v10_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_dlmb_bram_if_cntlr_1/FFTAudio_Block_dlmb_bram_if_cntlr_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_ilmb_bram_if_cntlr_1/FFTAudio_Block_ilmb_bram_if_cntlr_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_lmb_bram_1/FFTAudio_Block_lmb_bram_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_xbar_1/FFTAudio_Block_xbar_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_axi_intc_0/FFTAudio_Block_microblaze_0_axi_intc_0.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_axi_intc_0/FFTAudio_Block_microblaze_0_axi_intc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_axi_intc_0/FFTAudio_Block_microblaze_0_axi_intc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_mdm_1_1/FFTAudio_Block_mdm_1_1.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_mdm_1_1/FFTAudio_Block_mdm_1_1_ooc_trace.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_clk_wiz_1_0/FFTAudio_Block_clk_wiz_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_clk_wiz_1_0/FFTAudio_Block_clk_wiz_1_0.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_clk_wiz_1_0/FFTAudio_Block_clk_wiz_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_rst_clk_wiz_1_100M_0/FFTAudio_Block_rst_clk_wiz_1_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_rst_clk_wiz_1_100M_0/FFTAudio_Block_rst_clk_wiz_1_100M_0.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_rst_clk_wiz_1_100M_0/FFTAudio_Block_rst_clk_wiz_1_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_uartlite_0_0/FFTAudio_Block_axi_uartlite_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_uartlite_0_0/FFTAudio_Block_axi_uartlite_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_uartlite_0_0/FFTAudio_Block_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_iic_0_1/FFTAudio_Block_axi_iic_0_1_board.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_iic_0_1/FFTAudio_Block_axi_iic_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_0_0/FFTAudio_Block_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_0_0/FFTAudio_Block_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_0_0/FFTAudio_Block_axi_gpio_0_0.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_xadc_wiz_0_1/FFTAudio_Block_xadc_wiz_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_xadc_wiz_0_1/FFTAudio_Block_xadc_wiz_0_1.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_1_0/FFTAudio_Block_axi_gpio_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_1_0/FFTAudio_Block_axi_gpio_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_1_0/FFTAudio_Block_axi_gpio_1_0.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_2_0/FFTAudio_Block_axi_gpio_2_0_board.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_2_0/FFTAudio_Block_axi_gpio_2_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_axi_gpio_2_0/FFTAudio_Block_axi_gpio_2_0.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/FFTAudio_Block_ooc.xdc]
+set_property used_in_implementation false [get_files -all r:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.gen/sources_1/bd/FFTAudio_Block/ip/FFTAudio_Block_microblaze_0_1/data/mb_bootloop_le.elf]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -141,8 +141,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.srcs/constrs_1/new/Arty-S7-50-Master.xdc
-set_property used_in_implementation false [get_files R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.srcs/constrs_1/new/Arty-S7-50-Master.xdc]
+read_xdc R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.srcs/constrs_1/new/Arty-S7-50-Master.xdc
+set_property used_in_implementation false [get_files R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.srcs/constrs_1/new/Arty-S7-50-Master.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.runs/impl_1/FFTAudio_Block_wrapper.tcl"
+  variable script "R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.runs/impl_1/FFTAudio_Block_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -124,7 +124,8 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 6
+  set_param chipscope.maxJobs 3
+  set_param xicom.use_bs_reader 1
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7s50csga324-1
   set_property board_part_repo_paths {C:/Users/Mitchell/AppData/Roaming/Xilinx/Vivado/2020.2/xhub/board_store/xilinx_board_store} [current_project]
@@ -133,20 +134,20 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.cache/wt [current_project]
-  set_property parent.project_path R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.xpr [current_project]
-  set_property ip_output_repo R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.cache/ip [current_project]
+  set_property webtalk.parent_dir R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.cache/wt [current_project]
+  set_property parent.project_path R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.xpr [current_project]
+  set_property ip_output_repo R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.runs/synth_1/FFTAudio_Block_wrapper.dcp
+  add_files -quiet R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.runs/synth_1/FFTAudio_Block_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.srcs/sources_1/bd/FFTAudio_Block/FFTAudio_Block.bd
+  add_files R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.srcs/sources_1/bd/FFTAudio_Block/FFTAudio_Block.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc R:/Users/Mitchell/Documents/Microarchitecture/FFTAudio/FFTAudio.srcs/constrs_1/new/Arty-S7-50-Master.xdc
+  read_xdc R:/Users/Mitchell/Documents/GitHub/2021-Hardware/Audio_Spectrum_Analyzer/FPGA/Vivado-FFTAudio/FFTAudio.srcs/constrs_1/new/Arty-S7-50-Master.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

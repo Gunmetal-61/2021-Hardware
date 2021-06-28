@@ -1,8 +1,8 @@
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.2.2 (win64) Build 3118627 Tue Feb  9 05:14:06 MST 2021
-| Date         : Wed Jun  9 15:12:07 2021
-| Host         : HORIZON running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jun 28 14:20:54 2021
+| Host         : Potential running 64-bit major release  (build 9200)
 | Command      : report_utilization -file FFTAudio_Block_wrapper_utilization_synth.rpt -pb FFTAudio_Block_wrapper_utilization_synth.pb
 | Design       : FFTAudio_Block_wrapper
 | Device       : 7s50csga324-1
