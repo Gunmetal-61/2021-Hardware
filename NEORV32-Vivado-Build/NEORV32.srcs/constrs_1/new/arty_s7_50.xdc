@@ -1,4 +1,4 @@
-## This file is a general .xdc for the Arty S7-50 Rev. E
+## This file is a general .xdc for the Arty S7-50 Rev. E.  Configured for the NEORV32 RISC-V 32-bit microcontroller.
 
 ## For default neorv32_test_setup.vhd top entity
 
