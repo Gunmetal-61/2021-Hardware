@@ -1,4 +1,0 @@
-ERROR: Exception caught trying to open file R:\Users\Mitchell\Documents\GitHub\2021-Hardware\Audio_Spectrum_Analyzer\FPGA\Vivado-FFTAudio\FFTAudio.runs\synth_1/runme.log
-	Exception name: Error
-	Exception error code: 70
-	Exception message: Permission denied
