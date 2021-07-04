@@ -1,0 +1,7 @@
+verilog work --include "../../../ipstatic" \
+"../../../../PotatoProcessor.gen/sources_1/ip/clock_generator/clock_generator_clk_wiz.v" \
+"../../../../PotatoProcessor.gen/sources_1/ip/clock_generator/clock_generator.v" \
+
+verilog work "glbl.v"
+
+nosort

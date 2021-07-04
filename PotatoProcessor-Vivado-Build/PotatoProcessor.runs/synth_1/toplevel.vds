@@ -1,0 +1,527 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 22 16:44:45 2021
+# Process ID: 43876
+# Current directory: R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.runs/synth_1
+# Command line: vivado.exe -log toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toplevel.tcl
+# Log file: R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.runs/synth_1/toplevel.vds
+# Journal file: R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source toplevel.tcl -notrace
+Command: synth_design -top toplevel -part xc7s50csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 62180
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1110.684 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'toplevel' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/example/toplevel.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'pp_soc_reset' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_reset.vhd:30]
+	Parameter RESET_CYCLE_COUNT bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pp_soc_reset' (1#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_reset.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'clock_generator' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.runs/synth_1/.Xil/Vivado-43876-HORIZON/realtime/clock_generator_stub.vhdl:15]
+INFO: [Synth 8-638] synthesizing module 'pp_potato' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_potato.vhd:44]
+	Parameter PROCESSOR_ID bound to: 32'b00000000000000000000000000000000 
+	Parameter RESET_ADDRESS bound to: 32'b11111111111111111000000000000000 
+	Parameter MTIME_DIVIDER bound to: 5 - type: integer 
+	Parameter ICACHE_ENABLE bound to: 0 - type: bool 
+	Parameter ICACHE_LINE_SIZE bound to: 4 - type: integer 
+	Parameter ICACHE_NUM_LINES bound to: 128 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'pp_core' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_core.vhd:51]
+	Parameter PROCESSOR_ID bound to: 0 - type: integer 
+	Parameter RESET_ADDRESS bound to: -32768 - type: integer 
+	Parameter MTIME_DIVIDER bound to: 5 - type: integer 
+	Parameter TIME_DIVIDER bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'pp_csr_unit' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_csr_unit.vhd:57]
+	Parameter PROCESSOR_ID bound to: 0 - type: integer 
+	Parameter MTIME_DIVIDER bound to: 5 - type: integer 
+	Parameter TIME_DIVIDER bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_types.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'pp_counter' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_counter.vhd:23]
+	Parameter COUNTER_WIDTH bound to: 64 - type: integer 
+	Parameter COUNTER_STEP bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pp_counter' (2#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_counter.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'pp_csr_unit' (3#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_csr_unit.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'pp_register_file' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_register_file.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'pp_register_file' (4#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_register_file.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'pp_fetch' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_fetch.vhd:42]
+	Parameter RESET_ADDRESS bound to: -32768 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pp_fetch' (5#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_fetch.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'pp_decode' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_decode.vhd:67]
+	Parameter RESET_ADDRESS bound to: -32768 - type: integer 
+	Parameter PROCESSOR_ID bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'pp_imm_decoder' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_imm_decoder.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'pp_imm_decoder' (6#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_imm_decoder.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'pp_control_unit' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_control_unit.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'pp_alu_control_unit' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_alu_control_unit.vhd:25]
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_alu_control_unit.vhd:70]
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_alu_control_unit.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'pp_alu_control_unit' (7#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_alu_control_unit.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'pp_control_unit' (8#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_control_unit.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'pp_decode' (9#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_decode.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'pp_execute' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_execute.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'pp_alu_mux' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_alu_mux.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'pp_alu_mux' (10#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_alu_mux.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'pp_comparator' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_comparator.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'pp_comparator' (11#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_comparator.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'pp_alu' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_alu.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'pp_alu' (12#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_alu.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'pp_csr_alu' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_csr_alu.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'pp_csr_alu' (13#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_csr_alu.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'pp_execute' (14#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_execute.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'pp_memory' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_memory.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'pp_memory' (15#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_memory.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'pp_writeback' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_writeback.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'pp_writeback' (16#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_writeback.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'pp_core' (17#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_core.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'pp_wb_adapter' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_wb_adapter.vhd:34]
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_wb_adapter.vhd:90]
+INFO: [Synth 8-226] default block is never used [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_utilities.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'pp_wb_adapter' (18#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_wb_adapter.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'pp_wb_arbiter' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_wb_arbiter.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'pp_wb_arbiter' (19#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_wb_arbiter.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'pp_potato' (20#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/src/pp_potato.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'pp_soc_timer' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_timer.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'pp_soc_timer' (21#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_timer.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'pp_soc_gpio' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_gpio.vhd:43]
+	Parameter NUM_GPIOS bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pp_soc_gpio' (22#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_gpio.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'pp_soc_uart' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_uart.vhd:63]
+	Parameter FIFO_DEPTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'pp_fifo' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_fifo.vhd:31]
+	Parameter DEPTH bound to: 32 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pp_fifo' (23#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_fifo.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'pp_soc_uart' (24#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_uart.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'pp_soc_intercon' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_intercon.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'pp_soc_intercon' (25#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_intercon.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'aee_rom_wrapper' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/example/aee_rom_wrapper.vhd:29]
+	Parameter MEMORY_SIZE bound to: 16384 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'aee_rom' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.runs/synth_1/.Xil/Vivado-43876-HORIZON/realtime/aee_rom_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'aee_rom_wrapper' (26#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/example/aee_rom_wrapper.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'pp_soc_memory' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_memory.vhd:32]
+	Parameter MEMORY_SIZE bound to: 16384 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pp_soc_memory' (27#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_memory.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'pp_soc_memory__parameterized0' [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_memory.vhd:32]
+	Parameter MEMORY_SIZE bound to: 131072 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pp_soc_memory__parameterized0' (27#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/soc/pp_soc_memory.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'toplevel' (28#1) [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/sources_1/imports/potato/example/toplevel.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1221.922 ; gain = 111.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1221.922 ; gain = 111.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1221.922 ; gain = 111.238
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1221.922 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [r:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.gen/sources_1/ip/aee_rom/aee_rom/aee_rom_in_context.xdc] for cell 'aee_rom/rom'
+Finished Parsing XDC File [r:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.gen/sources_1/ip/aee_rom/aee_rom/aee_rom_in_context.xdc] for cell 'aee_rom/rom'
+Parsing XDC File [r:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.gen/sources_1/ip/clock_generator/clock_generator/clock_generator_in_context.xdc] for cell 'clkgen'
+Finished Parsing XDC File [r:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.gen/sources_1/ip/clock_generator/clock_generator/clock_generator_in_context.xdc] for cell 'clkgen'
+Parsing XDC File [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/constrs_1/imports/example/arty.xdc]
+Finished Parsing XDC File [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/constrs_1/imports/example/arty.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.srcs/constrs_1/imports/example/arty.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/toplevel_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/toplevel_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1327.395 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1327.395 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1327.395 ; gain = 216.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1327.395 ; gain = 216.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  r:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.gen/sources_1/ip/clock_generator/clock_generator/clock_generator_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  r:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.gen/sources_1/ip/clock_generator/clock_generator/clock_generator_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for aee_rom/rom. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for clkgen. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1327.395 ; gain = 216.711
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'pp_wb_adapter'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'pp_wb_arbiter'
+INFO: [Synth 8-802] inferred FSM for state register 'rx_state_reg' in module 'pp_soc_uart'
+INFO: [Synth 8-802] inferred FSM for state register 'tx_state_reg' in module 'pp_soc_uart'
+INFO: [Synth 8-802] inferred FSM for state register 'wb_state_reg' in module 'pp_soc_uart'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+          write_wait_ack |                               01 |                               10
+           read_wait_ack |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'pp_wb_adapter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                 m1_busy |                               01 |                               01
+                 m2_busy |                               10 |                               10
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'pp_wb_arbiter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+               write_ack |                               01 |                               01
+                read_ack |                               10 |                               10
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wb_state_reg' using encoding 'sequential' in module 'pp_soc_uart'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                transmit |                              010 |                               01
+                 stopbit |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_state_reg' using encoding 'one-hot' in module 'pp_soc_uart'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                startbit |                               01 |                               10
+                 receive |                               10 |                               01
+                 stopbit |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rx_state_reg' using encoding 'sequential' in module 'pp_soc_uart'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1327.395 ; gain = 216.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 7     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   31 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 12    
+	   2 Input    4 Bit       Adders := 4     
+	   2 Input    3 Bit       Adders := 6     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 41    
+	               31 Bit    Registers := 2     
+	               30 Bit    Registers := 2     
+	               12 Bit    Registers := 6     
+	                8 Bit    Registers := 14    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 16    
+	                4 Bit    Registers := 12    
+	                3 Bit    Registers := 12    
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 70    
++---RAMs : 
+	            1024K Bit	(32768 X 32 bit)          RAMs := 1     
+	             128K Bit	(4096 X 32 bit)          RAMs := 1     
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
+	              256 Bit	(32 X 8 bit)          RAMs := 4     
++---Muxes : 
+	  20 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 45    
+	   6 Input   32 Bit        Muxes := 5     
+	   4 Input   32 Bit        Muxes := 7     
+	   2 Input   31 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 8     
+	   4 Input    8 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 5     
+	  24 Input    5 Bit        Muxes := 1     
+	  18 Input    5 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   7 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 15    
+	   8 Input    4 Bit        Muxes := 2     
+	   5 Input    4 Bit        Muxes := 2     
+	   7 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 2     
+	  12 Input    3 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 6     
+	  16 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 3     
+	   4 Input    3 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 19    
+	   5 Input    2 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 7     
+	   4 Input    2 Bit        Muxes := 4     
+	   9 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 118   
+	  13 Input    1 Bit        Muxes := 1     
+	  17 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 38    
+	   4 Input    1 Bit        Muxes := 47    
+	   6 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6841] Block RAM (main_memory/memory_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1370.230 ; gain = 259.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping	Report (see note below)
++------------+------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object             | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|toplevel    | aee_ram/memory_reg     | 4 K x 32(READ_FIRST)   | W |   | 4 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 4      | 
+|toplevel    | main_memory/memory_reg | 32 K x 32(READ_FIRST)  | W |   | 32 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 32     | 
++------------+------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++--------------------+-------------------------------+-----------+----------------------+--------------+
+|Module Name         | RTL Object                    | Inference | Size (Depth x Width) | Primitives   | 
++--------------------+-------------------------------+-----------+----------------------+--------------+
+|processor/processor | regfile/regfile.registers_reg | Implied   | 32 x 32              | RAM32M x 12	 | 
+|toplevel            | uart0/send_buffer/memory_reg  | Implied   | 32 x 8               | RAM32M x 2	  | 
+|toplevel            | uart1/send_buffer/memory_reg  | Implied   | 32 x 8               | RAM32M x 2	  | 
+|toplevel            | uart0/recv_buffer/memory_reg  | Implied   | 32 x 8               | RAM32M x 2	  | 
+|toplevel            | uart1/recv_buffer/memory_reg  | Implied   | 32 x 8               | RAM32M x 2	  | 
++--------------------+-------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1370.230 ; gain = 259.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:00:52 . Memory (MB): peak = 1584.227 ; gain = 473.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++------------+------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object             | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|toplevel    | aee_ram/memory_reg     | 4 K x 32(READ_FIRST)   | W |   | 4 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 4      | 
+|toplevel    | main_memory/memory_reg | 32 K x 32(READ_FIRST)  | W |   | 32 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 32     | 
++------------+------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping	Report
++--------------------+-------------------------------+-----------+----------------------+--------------+
+|Module Name         | RTL Object                    | Inference | Size (Depth x Width) | Primitives   | 
++--------------------+-------------------------------+-----------+----------------------+--------------+
+|processor/processor | regfile/regfile.registers_reg | Implied   | 32 x 32              | RAM32M x 12	 | 
+|toplevel            | uart0/send_buffer/memory_reg  | Implied   | 32 x 8               | RAM32M x 2	  | 
+|toplevel            | uart1/send_buffer/memory_reg  | Implied   | 32 x 8               | RAM32M x 2	  | 
+|toplevel            | uart0/recv_buffer/memory_reg  | Implied   | 32 x 8               | RAM32M x 2	  | 
+|toplevel            | uart1/recv_buffer/memory_reg  | Implied   | 32 x 8               | RAM32M x 2	  | 
++--------------------+-------------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance aee_ram/memory_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance aee_ram/memory_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance aee_ram/memory_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance aee_ram/memory_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_0_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_0_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_0_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_0_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_0_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_0_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_0_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_0_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_1_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_1_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_1_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_1_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_1_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_1_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_1_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_1_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_2_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_2_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_2_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_2_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_2_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_2_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_2_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_2_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_3_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_3_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_3_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_3_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_3_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_3_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_3_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance main_memory/memory_reg_3_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1602.332 ; gain = 491.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:00:58 . Memory (MB): peak = 1602.332 ; gain = 491.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:00:58 . Memory (MB): peak = 1602.332 ; gain = 491.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1602.332 ; gain = 491.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1602.332 ; gain = 491.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1602.332 ; gain = 491.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1602.332 ; gain = 491.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------+----------+
+|      |BlackBox name   |Instances |
++------+----------------+----------+
+|1     |clock_generator |         1|
+|2     |aee_rom         |         1|
++------+----------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |aee_rom         |     1|
+|2     |clock_generator |     1|
+|3     |BUFG            |     1|
+|4     |CARRY4          |   194|
+|5     |LUT1            |   112|
+|6     |LUT2            |   312|
+|7     |LUT3            |   434|
+|8     |LUT4            |   789|
+|9     |LUT5            |   620|
+|10    |LUT6            |  1140|
+|11    |MUXF7           |     2|
+|12    |RAM32M          |    20|
+|13    |RAMB36E1        |    36|
+|15    |FDRE            |  1894|
+|16    |FDSE            |   143|
+|17    |IBUF            |     3|
+|18    |IOBUF           |    12|
+|19    |OBUF            |     2|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1602.332 ; gain = 491.648
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:00:56 . Memory (MB): peak = 1602.332 ; gain = 386.176
+Synthesis Optimization Complete : Time (s): cpu = 00:00:59 ; elapsed = 00:00:59 . Memory (MB): peak = 1602.332 ; gain = 491.648
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 1602.332 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 264 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1602.332 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 12 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 20 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+127 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:07 . Memory (MB): peak = 1602.332 ; gain = 491.648
+INFO: [Common 17-1381] The checkpoint 'R:/Users/Mitchell/Documents/Academics/PotatoProcessor/PotatoProcessor.runs/synth_1/toplevel.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file toplevel_utilization_synth.rpt -pb toplevel_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 22 16:46:00 2021...

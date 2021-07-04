@@ -1,0 +1,6 @@
+verilog work  \
+"../../../../PotatoProcessor.gen/sources_1/ip/aee_rom/sim/aee_rom.v" \
+
+verilog work "glbl.v"
+
+nosort

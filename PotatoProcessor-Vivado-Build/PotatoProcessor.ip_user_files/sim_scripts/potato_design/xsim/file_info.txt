@@ -1,0 +1,2 @@
+potato_design.vhd,vhdl,work,../../../bd/potato_design/sim/potato_design.vhd,
+glbl.v,Verilog,work,glbl.v

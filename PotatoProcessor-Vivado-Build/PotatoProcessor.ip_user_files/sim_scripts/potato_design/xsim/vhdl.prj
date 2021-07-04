@@ -1,0 +1,4 @@
+vhdl work  \
+"../../../bd/potato_design/sim/potato_design.vhd" \
+
+nosort
