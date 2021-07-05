@@ -5,8 +5,8 @@ My embedded, FPGA, and computer microarchitecture projects of 2021.  This is whe
 <br />
 <br />
 ### As of 2021/07/04:  The sub-projects held within this repository include:
-1. [NEORV32-Vivado-Build](NEORV32 - Arty S7-50 RISC-V FPGA Implementation)
-2. [PotatoProcessor-Vivado-Build](Potato Processor - Arty S7-50 RISC-V FPGA Implementation)
+1. [NEORV32-Vivado-Build](#NEORV32 - Arty S7-50 RISC-V FPGA Implementation)
+2. [PotatoProcessor-Vivado-Build](#Potato Processor - Arty S7-50 RISC-V FPGA Implementation)
 
 <br />
 
@@ -33,4 +33,4 @@ Contains the Vivado project files for a successful bitstream generation of the P
 The repository for the processor is [here](https://github.com/skordal/potato).  The "Getting Started" section I followed to completion is [here](https://github.com/skordal/potato/tree/master/example).
 
 The tools I used included:
-- Everything I had for [the NEORV32 project above](NEORV32 - Arty S7-50 RISC-V FPGA Implementation).
+- Everything I had for [the NEORV32 project above](#NEORV32 - Arty S7-50 RISC-V FPGA Implementation).
